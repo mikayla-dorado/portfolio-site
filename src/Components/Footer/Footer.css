@@ -1,0 +1,32 @@
+footer {
+    background-color: rgb(117, 67, 43);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .footer-content {
+    margin-top: 10px;
+  }
+
+  .email {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .In {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }

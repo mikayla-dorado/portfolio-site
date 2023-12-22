@@ -1,0 +1,84 @@
+.home {
+  text-align: center;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-image {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.name,
+.title {
+  margin-top: 2%;
+  color: white;
+}
+
+body {
+  background-color: rgba(134, 94, 66, 0.908);
+  font-size: large;
+  cursor: default;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.about {
+  color: white;
+  text-align: center;
+  margin-top: 40%;
+  margin-bottom: 40%;
+  font-size: larger;
+}
+
+.projects {
+  color: white;
+  text-align: center;
+  margin-top: 40%;
+  margin-bottom: 40%;
+  font-size: larger;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30%;
+  margin-top: 10%;
+}
+
+.skill {
+  color: white;
+}
+
+.resume {
+  color: white;
+}
+
+.about-me {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.resume-img {
+  width: 600px;
+  height: 700px;
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+
+.tastebuds-video {
+  width: 800px;
+  height: 500px;
+  margin-top: 10%;
+}
