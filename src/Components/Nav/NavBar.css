@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(117, 67, 43);
+    position: fixed;
+    width: 100%;
 }
 
 .nav-link {

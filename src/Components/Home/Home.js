@@ -14,7 +14,7 @@ import GithubIcon from "../../Components/Photos/Skills/gtihub icon.png"
 import LinkedInIcon from "../../Components/Photos/linked in icon.png"
 import PhotoCarousel from "../../Components/PhotoCarousel/PhotoCarousel";
 import image1 from "../../Components/Photos/concert img.jpg";
-import image2 from  "../../Components/Photos/mario img.jpg";
+import image2 from "../../Components/Photos/mario img.jpg";
 import image3 from "../../Components/Photos/me 2 img.jpg";
 import image4 from "../../Components/Photos/me 3 img.jpg";
 import image5 from "../../Components/Photos/me 4img.jpg";
@@ -24,7 +24,7 @@ import image6 from "../../Components/Photos/me img.jpg"
 export const Home = () => {
     const images = [
         image1, image2, image3, image4, image5, image6
-      ];
+    ];
 
     return (<>
         <div className="home">
@@ -50,6 +50,11 @@ export const Home = () => {
             </Element>
             <Element name="about">
                 <div className="about">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <div>
                         <h2>About Me</h2>
                     </div>
@@ -70,13 +75,22 @@ export const Home = () => {
                             Other hobbies of mine include cooking and baking for my loved ones, reading books, walking, going to concerts, and attending church with our family!
                         </p>
                         <div>
-                        <PhotoCarousel images={images} />
+                            <PhotoCarousel images={images} />
                         </div>
                     </div>
                 </div>
             </Element>
             <Element name="projects">
                 <div className="projects">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+
+
+
                     <h2>My Projects</h2>
                     <h3>TasteBuds</h3>
                     <div>
@@ -94,6 +108,12 @@ export const Home = () => {
             </Element>
             <Element name="skills">
                 <div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <h2 className="skill">Skills</h2>
                     <div className="skills-container">
                         <div>
@@ -121,6 +141,12 @@ export const Home = () => {
                 </div>
             </Element>
             <Element name="resume">
+            <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 <h2 className="resume">Resume</h2>
                 <div>
                     <img src={Resume} className="resume-img" alt="resume-img" title="Resume" />

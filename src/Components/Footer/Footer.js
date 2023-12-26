@@ -8,7 +8,7 @@ export const Footer = () => {
         <footer>
             <div className="footer-content">
                 <div>
-                <a href="https://mail.google.com" className="link" target="_blank" rel="noreferrer" title="Email me!">
+                <a href="mailto:mikayla.dorado17@gmail.com" className="link" target="_blank" rel="noreferrer" title="Email me!">
                     <img src={EmailIcon} className="email" title="email" />
                     mikayla.dorado17@gmail.com 
                     </a>
