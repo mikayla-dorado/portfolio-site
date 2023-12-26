@@ -9,15 +9,15 @@
 }
 
 .portfolio-image {
-  width: 250px;
-  height: 300px;
+  width: 300px;
+  height: 350px;
   border-radius: 50%;
   margin-top: 5%;
 }
 
 .name,
 .title {
-  margin-top: 2%;
+  margin-top: 1%;
   color: white;
 }
 
@@ -26,6 +26,8 @@ body {
   font-size: large;
   cursor: default;
   font-family: 'Bebas Neue', sans-serif;
+  margin: 0;
+    padding: 0;
 }
 
 .about {
@@ -81,4 +83,21 @@ body {
   width: 800px;
   height: 500px;
   margin-top: 10%;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.github,
+.linkedin {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 10px; /* Adjust the spacing between icons as needed */
+  margin-top: 10px;
 }

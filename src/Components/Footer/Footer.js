@@ -8,16 +8,20 @@ export const Footer = () => {
         <footer>
             <div className="footer-content">
                 <div>
+                <a href="https://mail.google.com" className="link" target="_blank" rel="noreferrer" title="Email me!">
                     <img src={EmailIcon} className="email" title="email" />
-                    mikayla.dorado17@gmail.com |
+                    mikayla.dorado17@gmail.com 
+                    </a>
                 </div>
                 <div>
                     <img src={PhoneIcon} className="phone" title="phone" />
-                    (217)-691-5478 |
+                    (217)-691-5478 
                 </div>
                 <div>
+                <a href="https://www.linkedin.com/in/mikayla-dorado/" className="link" target="_blank" rel="noreferrer" title="Connect with me on Linked-In!">
                     <img src={InIcon} className="In" title="In" />
                     https://www.linkedin.com/in/mikayla-dorado/
+                    </a>
                 </div>
                 
                 

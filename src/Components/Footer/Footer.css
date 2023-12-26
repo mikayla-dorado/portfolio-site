@@ -1,12 +1,11 @@
 footer {
     background-color: rgb(117, 67, 43);
     color: #fff;
-    padding: 10px;
+    /* padding-right: 10px; */
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px;
   }
 
   .footer-content {
@@ -29,4 +28,8 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+  }
+
+  .link {
+    color: white;
   }
