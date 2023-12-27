@@ -1,5 +1,5 @@
 import "./Home.css"
-import portfolioimg from "../../Components/Photos/IMG_5188.JPG"
+import portfolioimg from "../../Components/Photos/me.JPG"
 import { Element } from "react-scroll";
 import ReactIcon from "../../Components/Photos/Skills/skills react logo.png"
 import SQLIcon from "../../Components/Photos/Skills/sql-database-icon-logo-design-ui-or-ux-app-vector-17507750.jpg"
@@ -30,6 +30,7 @@ export const Home = () => {
         <div className="home">
             <Element name="home">
                 <div className="centered-content">
+                    <br/>
                     <img className="portfolio-image" src={portfolioimg} alt="portrait" />
 
                     <div className="name">
