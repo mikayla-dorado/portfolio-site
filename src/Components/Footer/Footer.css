@@ -1,11 +1,13 @@
 footer {
-    background-color: rgb(117, 67, 43);
-    color: #fff;
+    /* background-color: rgb(117, 67, 43); */
+    background-color: rgb(212, 206, 206);
+    /* color: #fff; */
     /* padding-right: 10px; */
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-family: 'Consolas', monospace;
   }
 
   .footer-content {
@@ -31,6 +33,6 @@ footer {
   }
 
   .link {
-    color: white;
+    color: black;
   }
   

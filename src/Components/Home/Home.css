@@ -1,5 +1,6 @@
 .home {
   text-align: center;
+  font-family: 'Consolas', monospace;
 }
 
 .centered-content {
@@ -18,11 +19,12 @@
 .name,
 .title {
   margin-top: 1%;
-  color: white;
+  /* color: white; */
 }
 
 body {
-  background-color: rgba(134, 94, 66, 0.908);
+  /* background-color: rgba(134, 94, 66, 0.908); */
+  background-color: rgb(190, 177, 177);
   font-size: large;
   cursor: default;
   font-family: 'Bebas Neue', sans-serif;
@@ -31,7 +33,7 @@ body {
 }
 
 .about {
-  color: white;
+  /* color: white; */
   text-align: center;
   margin-top: 40%;
   margin-bottom: 40%;
@@ -39,7 +41,7 @@ body {
 }
 
 .projects {
-  color: white;
+  /* color: white; */
   text-align: center;
   margin-top: 40%;
   margin-bottom: 40%;
@@ -60,11 +62,11 @@ body {
 }
 
 .skill {
-  color: white;
+  /* color: white; */
 }
 
 .resume {
-  color: white;
+  /* color: white; */
 }
 
 .about-me {

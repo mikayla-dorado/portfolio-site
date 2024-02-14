@@ -43,7 +43,7 @@ export const Home = () => {
                         <a href="https://github.com/mikayla-dorado/portfolio-site" target="_blank" rel="noreferrer" title="View my Github!">
                             <img src={GithubIcon} className="github" alt="Github Icon" />
                         </a>
-                        <a href="https://www.linkedin.com/in/mikayla-dorado/" target="_blank" rel="noreferrer" title="View my Github!">
+                        <a href="https://www.linkedin.com/in/mikayla-dorado/" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn!">
                             <img src={LinkedInIcon} className="linkedin" alt="LinkedIn Icon" />
                         </a>
                     </div>
@@ -95,7 +95,7 @@ export const Home = () => {
                     <h2>My Projects</h2>
                     <h3>TasteBuds</h3>
                     <div>
-                        <a href="https://github.com/mikayla-dorado/portfolio-site" target="_blank" rel="noreferrer" title="View my Github!">
+                        <a href="https://github.com/mikayla-dorado/tastebuds" target="_blank" rel="noreferrer" title="View my Github!">
                             <img src={GithubIcon} className="github" alt="Github Icon" />
                         </a>
                     </div>
@@ -105,6 +105,19 @@ export const Home = () => {
                     <div>
                         <video src={TasteBudsVideo} className="tastebuds-video" alt="tastebuds-video" title="video" controls muted />
                     </div>
+                    {/* <div>
+                        <a href="https://github.com/mikayla-dorado/ChoreChart"target="_blank" rel="noreferrer" title="View my Github!">
+                        <img src={GithubIcon} className="github" alt="Github Icon" />
+                        </a>
+                    </div>
+                    <p>
+                        Chore Chart is a full-stack application where an admin can create a list of chores, an assign them to other users.
+                        The list of chores show their details and the user the are assigned to, along with the date they are due.
+                        This application was made as my back-end capstone at NSS and was built using HTML, CSS, JavaScript, React, C#, .NET, EFCore, and Bootstrap.
+                    </p>
+                    <div>
+                        <video />
+                    </div> */}
                 </div>
             </Element>
             <Element name="skills">
