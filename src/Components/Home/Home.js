@@ -18,7 +18,8 @@ import image2 from "../../Components/Photos/mario img.jpg";
 import image3 from "../../Components/Photos/me 2 img.jpg";
 import image4 from "../../Components/Photos/me 3 img.jpg";
 import image5 from "../../Components/Photos/me 4img.jpg";
-import image6 from "../../Components/Photos/me img.jpg"
+import image6 from "../../Components/Photos/me img.jpg";
+import hawaii from "../../Components/Photos/hawaii.jpg"
 
 
 export const Home = () => {
@@ -29,7 +30,8 @@ export const Home = () => {
     return (<>
         <div className="home">
             <Element name="home">
-                <div className="centered-content">
+                
+                <div className="centered-content"style={{ backgroundImage: `url(${hawaii})` }}>
                     <br/>
                     <img className="portfolio-image" src={portfolioimg} alt="portrait" />
 
@@ -40,7 +42,7 @@ export const Home = () => {
                         Software Developer
                     </div>
                     <div className="icon-container">
-                        <a href="https://github.com/mikayla-dorado/portfolio-site" target="_blank" rel="noreferrer" title="View my Github!">
+                        <a href="https://github.com/mikayla-dorado" target="_blank" rel="noreferrer" title="View my Github!">
                             <img src={GithubIcon} className="github" alt="Github Icon" />
                         </a>
                         <a href="https://www.linkedin.com/in/mikayla-dorado/" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn!">

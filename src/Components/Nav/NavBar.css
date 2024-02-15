@@ -8,6 +8,7 @@
     position: fixed;
     width: 100%;
     font-family: 'Consolas', monospace;
+    height: 8px;
 }
 
 .nav-link {
