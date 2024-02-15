@@ -9,7 +9,7 @@ import CIcon from "../../Components/Photos/Skills/74906.png"
 import JSIcon from "../../Components/Photos/Skills/logo-javascript-logo-black-and-white.png"
 import TailwindIcon from "../../Components/Photos/Skills/tailwind-icon-512x308-ienw2ldx.png"
 import TasteBudsVideo from "../../Components/Photos/s.mp4"
-import Resume from "../../Components/Photos/Mikayla Dorado Resume 2.png"
+import Resume from "../../Components/Photos/Mikayla Dorado Official Resume.png"
 import GithubIcon from "../../Components/Photos/Skills/gtihub icon.png"
 import LinkedInIcon from "../../Components/Photos/linked in icon.png"
 import PhotoCarousel from "../../Components/PhotoCarousel/PhotoCarousel";
@@ -167,11 +167,9 @@ export const Home = () => {
                 <div>
                     <img src={Resume} className="resume-img" alt="resume-img" title="Resume" />
                 </div>
+                {/* this download is not working */}
+                <a href={Resume} download="Mikayla Dorado - Resume" className="btn"> <button> Download My Resume </button> </a>
             </Element>
         </div>
     </>)
 }
-//need to adjust the image so it isnt stretched weird
-//need to add video to projects section (its there but isnt playing)
-//want to add image carousel to about me section
-//work on styling (font, bg color, etc)
