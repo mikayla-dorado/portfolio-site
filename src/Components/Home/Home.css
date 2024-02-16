@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   height: 1000px;
+  opacity: 1;
 }
 
 .portfolio-image {
@@ -50,6 +51,7 @@ body {
   margin-bottom: 40%;
   font-size: larger;
 }
+
 
 .icon {
   width: 50px;
@@ -99,6 +101,7 @@ body {
   display: flex;
 }
 
+/* need to make github and linkedin icons white instead of black */
 .github,
 .linkedin {
   width: 50px;
@@ -108,6 +111,7 @@ body {
   margin-right: 10px;
   /* Adjust the spacing between icons as needed */
   margin-top: 10px;
+  background-color: white;
 }
 
 .btn {
