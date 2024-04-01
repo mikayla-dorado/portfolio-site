@@ -30,9 +30,9 @@ export const Home = () => {
     return (<>
         <div className="home">
             <Element name="home">
-                
-                <div className="centered-content"style={{ backgroundImage: `url(${hawaii})` }}>
-                    <br/>
+                {/* style={{ backgroundImage: `url(${hawaii})` }} */}
+                <div className="centered-content">
+                    <br />
                     <img className="portfolio-image" src={portfolioimg} alt="portrait" />
 
                     <div className="name">
@@ -157,12 +157,12 @@ export const Home = () => {
                 </div>
             </Element>
             <Element name="resume">
-            <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <h2 className="resume">Resume</h2>
                 <div>
                     <img src={Resume} className="resume-img" alt="resume-img" title="Resume" />

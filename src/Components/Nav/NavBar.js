@@ -48,7 +48,7 @@ export const NavBar = () => {
       </li>
       <li>
         <Link className="nav-link" to="projects" smooth={true} duration={500}>
-          My Projects
+          Projects
         </Link>
       </li>
       <li>
@@ -61,6 +61,9 @@ export const NavBar = () => {
           Resume
         </Link>
       </li>
+      {/* <li className="nav-link">
+        Contact Me
+      </li> */}
     </ul>
   );
 };

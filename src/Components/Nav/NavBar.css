@@ -1,18 +1,41 @@
-.nav-bar {
+/* .nav-bar {
     list-style: none;
     padding: 3%;
     display: flex;
     justify-content: space-around;
-    /* background-color: rgb(117, 67, 43); */
+    
     background-color: rgb(212, 206, 206);
     position: fixed;
     width: 100%;
     font-family: 'Consolas', monospace;
     height: 8px;
+} */
+
+.nav-bar {
+    list-style: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    /* justify-content: space-around; */
+    /* background-color: rgb(212, 206, 206); */
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%;
+    height: 50px; /* Adjust height as needed */
+    z-index: 1000; /* Ensure the navbar is on top of other content */
 }
 
 .nav-link {
     text-decoration: none; /* Remove the default underline */
-    /* color: white; Set the text color to white */
-    padding: 10px; /* Add some padding for better visual appearance */
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .header {
+    color: white;
+    margin-left: 15px;
   }
