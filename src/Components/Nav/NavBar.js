@@ -32,6 +32,8 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./NavBar.css";
+import GithubIcon from "../../Components/Photos/Skills/gtihub icon.png"
+import LinkedInIcon from "../../Components/Photos/linked in icon.png"
 
 export const NavBar = () => {
   return (
@@ -41,11 +43,11 @@ export const NavBar = () => {
           Home
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link className="nav-link" to="about" smooth={true} duration={500}>
           About Me
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link className="nav-link" to="projects" smooth={true} duration={500}>
           Projects
@@ -64,6 +66,14 @@ export const NavBar = () => {
       {/* <li className="nav-link">
         Contact Me
       </li> */}
+      <div className="icon-container">
+        <a href="https://github.com/mikayla-dorado" target="_blank" rel="noreferrer" title="View my Github!">
+          <img src={GithubIcon} className="github" alt="Github Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/mikayla-dorado/" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn!">
+          <img src={LinkedInIcon} className="linkedin" alt="LinkedIn Icon" />
+        </a>
+      </div>
     </ul>
   );
 };

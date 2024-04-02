@@ -20,7 +20,7 @@ export const Footer = () => {
                 <div>
                 <a href="https://www.linkedin.com/in/mikayla-dorado/" className="link" target="_blank" rel="noreferrer" title="Connect with me on Linked-In!">
                     <img src={InIcon} className="In" title="In" />
-                    https://www.linkedin.com/in/mikayla-dorado/
+                    https://www.linkedin.com/in/mikayla-dorado/ 
                     </a>
                 </div>
                 

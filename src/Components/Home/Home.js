@@ -30,35 +30,38 @@ export const Home = () => {
     return (<>
         <div className="home">
             <Element name="home">
+                {/* <br></br> */}
+                {/* <div className="intro">
+                <h1>Hello</h1>
+                </div> */}
                 {/* style={{ backgroundImage: `url(${hawaii})` }} */}
                 <div className="centered-content">
-                    <br />
+                    {/* <br /> */}
                     <img className="portfolio-image" src={portfolioimg} alt="portrait" />
-
-                    <div className="name">
+                    {/* <div className="name">
                         Mikayla Dorado
                     </div>
                     <div className="title">
                         Software Developer
-                    </div>
-                    <div className="icon-container">
+                    </div> */}
+                    {/* <div className="icon-container">
                         <a href="https://github.com/mikayla-dorado" target="_blank" rel="noreferrer" title="View my Github!">
                             <img src={GithubIcon} className="github" alt="Github Icon" />
                         </a>
                         <a href="https://www.linkedin.com/in/mikayla-dorado/" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn!">
                             <img src={LinkedInIcon} className="linkedin" alt="LinkedIn Icon" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </Element>
-            <Element name="about">
+            {/* <Element name="about">
                 <div className="about">
                     <br></br>
                     <br></br>
                     <br></br>
                     <br></br>
                     <br></br>
-                    <div>
+                    {/* <div>
                         <h2>About Me</h2>
                     </div>
                     <div className="about-me">
@@ -76,13 +79,13 @@ export const Home = () => {
                             When I'm not practicing code, I enjoy spending time at home with my husband.
                             One of our favorite things to do together is order a pizza and play Super Mario Bros on the Wii or our Switch.
                             Other hobbies of mine include cooking and baking for my loved ones, reading books, walking, going to concerts, and attending church with our family!
-                        </p>
+                        </p> 
                         <div>
                             <PhotoCarousel images={images} />
                         </div>
                     </div>
                 </div>
-            </Element>
+            </Element> */}
             <Element name="projects">
                 <div className="projects">
                     <br></br>
