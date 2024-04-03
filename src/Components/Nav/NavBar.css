@@ -1,41 +1,79 @@
 /* .nav-bar {
     list-style: none;
-    padding: 3%;
-    display: flex;
-    justify-content: space-around;
-    
-    background-color: rgb(212, 206, 206);
-    position: fixed;
-    width: 100%;
-    font-family: 'Consolas', monospace;
-    height: 8px;
-} */
-
-.nav-bar {
-    list-style: none;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0; 
+    padding: 0; 
     display: flex;
     justify-content: flex-end;
     padding-top: 40px;
-    /* justify-content: space-around; */
-    /* background-color: rgb(212, 206, 206); */
     position: fixed;
-    top: 0; /* Position the navbar at the top of the page */
+    top: 0; 
     left: 0;
     width: 100%;
-    height: 50px; /* Adjust height as needed */
-    z-index: 1000; /* Ensure the navbar is on top of other content */
+    height: 50px; 
+    z-index: 1000; 
 }
 
 .nav-link {
-    text-decoration: none; /* Remove the default underline */
+    text-decoration: none; 
     color: white;
     font-size: 20px;
     margin-right: 20px;
-  }
+  } */
 
   .header {
     color: white;
     margin-left: 15px;
+  } 
+
+  .nav-bar {
+    width: 800px;
+    height: 80px;
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.4);
+    margin-left: 700px;
   }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li{
+    border-radius: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s, font-size 0.5s;
+  }
+
+  nav ul li:after{
+    content: "";
+    background: rgb(106, 132, 174);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+  }
+
+nav ul li:hover{
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
+  /* background-color: yellow; */
+  background: rgb(106, 132, 174);
+}

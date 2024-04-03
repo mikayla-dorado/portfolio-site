@@ -37,17 +37,13 @@ import LinkedInIcon from "../../Components/Photos/linked in icon.png"
 
 export const NavBar = () => {
   return (
+    <nav>
     <ul className="nav-bar">
       <li>
         <Link className="nav-link" to="home" smooth={true} duration={500}>
           Home
         </Link>
       </li>
-      {/* <li>
-        <Link className="nav-link" to="about" smooth={true} duration={500}>
-          About Me
-        </Link>
-      </li> */}
       <li>
         <Link className="nav-link" to="projects" smooth={true} duration={500}>
           Projects
@@ -63,9 +59,6 @@ export const NavBar = () => {
           Resume
         </Link>
       </li>
-      {/* <li className="nav-link">
-        Contact Me
-      </li> */}
       <div className="icon-container">
         <a href="https://github.com/mikayla-dorado" target="_blank" rel="noreferrer" title="View my Github!">
           <img src={GithubIcon} className="github" alt="Github Icon" />
@@ -75,5 +68,6 @@ export const NavBar = () => {
         </a>
       </div>
     </ul>
+    </nav>
   );
 };

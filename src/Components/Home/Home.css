@@ -3,21 +3,13 @@
 }
 
 .centered-content {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  opacity: 1; */
-  position: absolute; /* Position the container absolutely */
-  top: 0; /* Align the container to the top of the page */
-  left: 0; /* Align the container to the left of the page */
-  width: 100%; /* Set the width to 100% of its parent (the viewport) */
-  height: 100%; /* Set the height to 100% of its parent (the viewport) */
-  display: flex; /* Use flexbox for centering the image */
-  justify-content: flex-start; /* Align items to the start (left) of the container */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  display: flex; 
+  justify-content: flex-start; 
   align-items: flex-start; 
   margin-left: 200px;
   margin-top: 100px;
@@ -30,11 +22,11 @@
 .portfolio-image {
   width: auto;
   height: 350px;
-  /* border-radius: 50%;  */
   margin-bottom: 2000px;
   margin-right: 900px;
   display: block;
   float: left;
+  border: solid black;
 }
 
 .name,
@@ -46,6 +38,7 @@
 
 body {
   background-color:rgb(53, 111, 193);
+  background-color: burlywood;
   font-size: large;
   cursor: default;
   margin: 0;
@@ -54,7 +47,6 @@ body {
 }
 
 .about {
-  /* color: white; */
   text-align: center;
   margin-top: 40%;
   margin-bottom: 40%;
@@ -62,7 +54,6 @@ body {
 }
 
 .projects {
-  /* color: white; */
   text-align: center;
   margin-top: 40%;
   margin-bottom: 40%;
@@ -81,14 +72,6 @@ body {
   justify-content: space-between;
   margin-bottom: 30%;
   margin-top: 10%;
-}
-
-.skill {
-  /* color: white; */
-}
-
-.resume {
-  /* color: white; */
 }
 
 .about-me {
@@ -118,17 +101,11 @@ body {
   display: flex;
 }
 
-/* need to make github and linkedin icons white instead of black */
 .github,
 .linkedin {
   width: 30px;
-  /* Adjust the width as needed */
   height: 30px;
-  /* Adjust the height as needed */
   margin-right: 10px;
-  /* Adjust the spacing between icons as needed */
-  /* margin-top: 10px; */
-  /* background-color: white; */
 }
 
 .btn {
@@ -142,7 +119,6 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 15px;
-  /* padding-bottom: 6px; */
   background-color: white;
   margin-left: 600px;
   margin-top: 200px;

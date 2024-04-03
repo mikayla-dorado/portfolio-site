@@ -6,7 +6,7 @@ import { AboutMe } from "../Home/AboutMe.js"
 
 export const ApplicationViews = () => {
     return <>
-    <Header />
+    {/* <Header /> */}
     <AboutMe />
         <Routes>        
             <Route path="/" element={<Home />}/>

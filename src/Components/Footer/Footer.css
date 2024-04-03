@@ -1,15 +1,12 @@
-footer {
-    /* background-color: rgb(117, 67, 43); */
+    footer {
     background-color: rgb(212, 206, 206);
-    /* color: #fff; */
-    /* padding-right: 10px; */
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+  } 
 
-  .footer-content {
+   .footer-content {
     margin-top: 10px;
   }
 
@@ -23,6 +20,7 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    color: black;
   }
 
   .In {
@@ -33,5 +31,5 @@ footer {
 
   .link {
     color: black;
-  }
-  
+  } 
+   
