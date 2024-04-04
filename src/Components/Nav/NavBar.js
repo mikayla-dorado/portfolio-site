@@ -38,6 +38,7 @@ import LinkedInIcon from "../../Components/Photos/linked in icon.png"
 export const NavBar = () => {
   return (
     <nav>
+      {/* <h1 className="header"><i className="fa-brands fa-pagelines"/> Mikayla Dorado</h1> */}
     <ul className="nav-bar">
       <li>
         <Link className="nav-link" to="home" smooth={true} duration={500}>

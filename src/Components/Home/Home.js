@@ -52,6 +52,12 @@ export const Home = () => {
                             <img src={LinkedInIcon} className="linkedin" alt="LinkedIn Icon" />
                         </a>
                     </div> */}
+                    <div className="background-box">
+                        <h1>Hello</h1>
+                    </div>
+                    <div className="background-box2">
+                        Hello
+                    </div>
                 </div>
             </Element>
             {/* <Element name="about">
@@ -97,7 +103,7 @@ export const Home = () => {
 
 
 
-                    <h2>My Projects</h2>
+                    <h2>Projects</h2>
                     <h3>TasteBuds</h3>
                     <div>
                         <a href="https://github.com/mikayla-dorado/tastebuds" target="_blank" rel="noreferrer" title="View my Github!">
