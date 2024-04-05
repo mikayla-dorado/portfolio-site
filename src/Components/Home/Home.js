@@ -30,28 +30,8 @@ export const Home = () => {
     return (<>
         <div className="home">
             <Element name="home">
-                {/* <br></br> */}
-                {/* <div className="intro">
-                <h1>Hello</h1>
-                </div> */}
-                {/* style={{ backgroundImage: `url(${hawaii})` }} */}
                 <div className="centered-content">
-                    {/* <br /> */}
                     <img className="portfolio-image" src={portfolioimg} alt="portrait" />
-                    {/* <div className="name">
-                        Mikayla Dorado
-                    </div>
-                    <div className="title">
-                        Software Developer
-                    </div> */}
-                    {/* <div className="icon-container">
-                        <a href="https://github.com/mikayla-dorado" target="_blank" rel="noreferrer" title="View my Github!">
-                            <img src={GithubIcon} className="github" alt="Github Icon" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/mikayla-dorado/" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn!">
-                            <img src={LinkedInIcon} className="linkedin" alt="LinkedIn Icon" />
-                        </a>
-                    </div> */}
                     <div className="background-box">
                         <h1>Hello</h1>
                     </div>
@@ -60,49 +40,8 @@ export const Home = () => {
                     </div>
                 </div>
             </Element>
-            {/* <Element name="about">
-                <div className="about">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    {/* <div>
-                        <h2>About Me</h2>
-                    </div>
-                    <div className="about-me">
-                        <p>
-                            My journey into the world of Software Development began in the fall of 2022.
-                            Growing up in a non-tech-oriented family, I initially perceived the tech/IT industry as something beyond my reach.
-                            Before embarking on my coding bootcamp journey, I spent nearly three years working at CVS Pharmacy, where I progressed from an Inventory Specialist to a Lead Pharmacy Technician.
-
-                            Despite my achievements, I knew deep down that this wasn't my long-term path.
-                            It wasn't until my husband and our friend introduced me to the world of Development that I decided to explore it further.
-                            Trying it out at home, I quickly discovered a passion for unlocking the ability to create almost anything.
-                            The prospect of continuously learning new languages, libraries, and frameworks excites me and fuels my anticipation for a future career in this dynamic field.
-                        </p>
-                        <p>
-                            When I'm not practicing code, I enjoy spending time at home with my husband.
-                            One of our favorite things to do together is order a pizza and play Super Mario Bros on the Wii or our Switch.
-                            Other hobbies of mine include cooking and baking for my loved ones, reading books, walking, going to concerts, and attending church with our family!
-                        </p> 
-                        <div>
-                            <PhotoCarousel images={images} />
-                        </div>
-                    </div>
-                </div>
-            </Element> */}
             <Element name="projects">
                 <div className="projects">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-
-
-
-
                     <h2>Projects</h2>
                     <h3>TasteBuds</h3>
                     <div>
@@ -116,29 +55,10 @@ export const Home = () => {
                     <div>
                         <video src={TasteBudsVideo} className="tastebuds-video" alt="tastebuds-video" title="video" controls muted />
                     </div>
-                    {/* <div>
-                        <a href="https://github.com/mikayla-dorado/ChoreChart"target="_blank" rel="noreferrer" title="View my Github!">
-                        <img src={GithubIcon} className="github" alt="Github Icon" />
-                        </a>
-                    </div>
-                    <p>
-                        Chore Chart is a full-stack application where an admin can create a list of chores, an assign them to other users.
-                        The list of chores show their details and the user the are assigned to, along with the date they are due.
-                        This application was made as my back-end capstone at NSS and was built using HTML, CSS, JavaScript, React, C#, .NET, EFCore, and Bootstrap.
-                    </p>
-                    <div>
-                        <video />
-                    </div> */}
                 </div>
             </Element>
             <Element name="skills">
                 <div>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
                     <h2 className="skill">Skills</h2>
                     <div className="skills-container">
                         <div>
@@ -166,12 +86,12 @@ export const Home = () => {
                 </div>
             </Element>
             <Element name="resume">
+                {/* <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
+                <br></br> */}
                 <h2 className="resume">Resume</h2>
                 <div>
                     <img src={Resume} className="resume-img" alt="resume-img" title="Resume" />

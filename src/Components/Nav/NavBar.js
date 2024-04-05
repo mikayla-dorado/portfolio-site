@@ -1,34 +1,3 @@
-// import { Link } from "react-router-dom"
-// import "./NavBar.css"
-
-
-// export const NavBar = () => {
-
-
-//     return (
-//         <ul className="nav-bar">
-//             <li>
-//                 <Link className="nav-link" to="/">Home</Link>
-//             </li>
-//             <li>
-//                 <Link className="nav-link" to="/aboutme">About Me</Link>
-//             </li>
-//             <li>
-//                 <Link className="nav-link" to="/projects">My Projects</Link>
-//             </li>
-//             <li>
-//                 <Link className="nav-link" to="/skills">Skills</Link>
-//             </li>
-//             {/* <li>
-//                 <Link className="nav-link" to="/contact">Contact Me</Link>
-//             </li> */}
-//             <li>
-//                 <Link className="nav-link" to="/resume">Resume</Link>
-//             </li>
-//         </ul>
-//     )
-// }
-
 import React from "react";
 import { Link } from "react-scroll";
 import "./NavBar.css";
@@ -38,7 +7,6 @@ import LinkedInIcon from "../../Components/Photos/linked in icon.png"
 export const NavBar = () => {
   return (
     <nav>
-      {/* <h1 className="header"><i className="fa-brands fa-pagelines"/> Mikayla Dorado</h1> */}
     <ul className="nav-bar">
       <li>
         <Link className="nav-link" to="home" smooth={true} duration={500}>
