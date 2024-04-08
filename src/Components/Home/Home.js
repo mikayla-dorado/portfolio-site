@@ -40,7 +40,7 @@ export const Home = () => {
                     </div>
                 </div>
             </Element>
-            <Element name="projects">
+            <Element name="projects" className="project-element">
                 <div className="projects">
                     <h2>Projects</h2>
                     <h3>TasteBuds</h3>
@@ -58,7 +58,7 @@ export const Home = () => {
                 </div>
             </Element>
             <Element name="skills">
-                <div>
+                <div className="skill-box">
                     <h2 className="skill">Skills</h2>
                     <div className="skills-container">
                         <div>
@@ -85,7 +85,7 @@ export const Home = () => {
                     </div>
                 </div>
             </Element>
-            <Element name="resume">
+            <Element name="resume" className="resume-element">
                 {/* <br></br>
                 <br></br>
                 <br></br>
