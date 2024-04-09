@@ -57,7 +57,7 @@ export const Home = () => {
                     </div>
                 </div>
             </Element>
-            <Element name="skills">
+            <Element name="skills" className="skill-element">
                 <div className="skill-box">
                     <h2 className="skill">Skills</h2>
                     <div className="skills-container">
@@ -86,12 +86,6 @@ export const Home = () => {
                 </div>
             </Element>
             <Element name="resume" className="resume-element">
-                {/* <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br> */}
                 <h2 className="resume">Resume</h2>
                 <div>
                     <img src={Resume} className="resume-img" alt="resume-img" title="Resume" />

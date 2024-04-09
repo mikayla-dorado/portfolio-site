@@ -56,9 +56,21 @@ body {
 
 .projects {
   text-align: center;
-  margin-top: 40%;
+  /* margin-top: 40%; */
   margin-bottom: 40%;
   font-size: larger;
+}
+
+.project-element {
+  padding-top: 130px;
+}
+
+.skill-element {
+  padding-top: 120px;
+}
+
+.resume-element {
+  padding-top: 120px;
 }
 
 .icon {
