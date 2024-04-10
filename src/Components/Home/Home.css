@@ -60,6 +60,8 @@ body {
   margin-bottom: 40%;
   font-size: larger;
 }
+/* when clicking home it is still directing to the projects section
+then the navbar wont work when you go to the projects after clicking the home btn, you have to manually scroll out of projects for nav to work again*/
 
 .project-element {
   padding-top: 130px;
