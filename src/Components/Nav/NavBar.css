@@ -64,3 +64,46 @@
     /* background-color: yellow; */
     background: rgb(106, 132, 174);
   }
+
+
+  
+
+  /* .responsive-nav ul {
+    display: none; 
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-nav ul.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+  
+    .responsive-nav ul.active li {
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+    }
+  }
+
+  .menu-button {
+    display: none; 
+  }
+  
+  @media (max-width: 768px) {
+    .menu-button {
+      display: block;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+  } */
+  
+  

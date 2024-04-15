@@ -163,3 +163,15 @@ then the navbar wont work when you go to the projects after clicking the home bt
   margin-top: 130px;
 }
 
+@media only screen and (max-width: 400px) {
+  .portfolio-image {
+    width: auto;
+    height: 350px;
+    margin-bottom: 2000px;
+    /* margin-right: 600px; */
+    display: block;
+    float: left;
+    z-index: 1;
+  }
+}
+
