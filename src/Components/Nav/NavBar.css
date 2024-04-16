@@ -107,3 +107,46 @@
   } */
   
   
+  /* Add this to your NavBar.css */
+
+.toggle-button {
+  display: none; /* Hide the button by default on larger screens */
+}
+
+.responsive-nav.active .nav-bar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px; /* Adjust as needed */
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle-button {
+    display: block; /* Show the button on smaller screens */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    /* border: solid black;
+    border-radius: 10px; */
+    color: white;
+  }
+
+  .nav-bar {
+    display: none; /* Hide the navbar by default on smaller screens */
+  }
+
+  .responsive-nav.active .nav-bar {
+    display: flex; /* Show the navbar when active (expanded) */
+  }
+}

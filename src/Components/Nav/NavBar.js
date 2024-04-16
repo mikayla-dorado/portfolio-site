@@ -4,6 +4,7 @@ import "./NavBar.css";
 // import "./Home.css"
 import GithubIcon from "../../Components/Photos/Skills/gtihub icon.png"
 import LinkedInIcon from "../../Components/Photos/linked in icon.png"
+// import { VscCollapseAll } from "react-icons/vsc";
 
 export const NavBar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -14,6 +15,10 @@ export const NavBar = () => {
 
   return (
     <nav className={`responsive-nav ${isActive ? 'active' : ''}`}>
+       <button className="toggle-button" onClick={toggleMenu}>
+        {/* <VscCollapseAll /> */}
+        Menu
+      </button>
       <ul className="nav-bar">
         <li>
           <Link className="nav-link" to="home" smooth={true} duration={500}>
@@ -44,9 +49,9 @@ export const NavBar = () => {
           </a>
         </div>
       </ul>
-      <div className="menu-button" onClick={toggleMenu}>
+      {/* <div className="menu-button" onClick={toggleMenu}>
         Menu
-      </div>
+      </div> */}
     </nav>
   );
 };
