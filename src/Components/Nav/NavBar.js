@@ -1,23 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 import "./NavBar.css";
 // import "./Home.css"
 import GithubIcon from "../../Components/Photos/Skills/gtihub icon.png"
 import LinkedInIcon from "../../Components/Photos/linked in icon.png"
-// import { VscCollapseAll } from "react-icons/vsc";
+
 
 export const NavBar = () => {
   const [isActive, setIsActive] = useState(false);
+  const navRef = useRef(null);
 
   const toggleMenu = () => {
     setIsActive(!isActive);
   };
 
+  
+  // Close the dropdown when clicking outside of it
+  // useEffect(() => {
+  //   const handleClickOutside = (event) => {
+  //     if (navRef.current && !navRef.current.contains(event.target)) {
+  //       setIsActive(false);
+  //     }
+  //   };
+
+  //   document.addEventListener("mousedown", handleClickOutside);
+  //   return () => {
+  //     document.removeEventListener("mousedown", handleClickOutside);
+  //   };
+  // }, []);
+
+
   return (
     <nav className={`responsive-nav ${isActive ? 'active' : ''}`}>
        <button className="toggle-button" onClick={toggleMenu}>
-        {/* <VscCollapseAll /> */}
-        Menu
+       <i class="fa-solid fa-bars"></i>
+        {/* Menu */}
       </button>
       <ul className="nav-bar">
         <li>
@@ -49,9 +66,6 @@ export const NavBar = () => {
           </a>
         </div>
       </ul>
-      {/* <div className="menu-button" onClick={toggleMenu}>
-        Menu
-      </div> */}
     </nav>
   );
 };
