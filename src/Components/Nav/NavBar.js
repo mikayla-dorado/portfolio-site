@@ -69,3 +69,6 @@ export const NavBar = () => {
     </nav>
   );
 };
+
+//need to add a collapsible icon for the navbar when viewed on mobile devices
+//need to figure out how to expand the 'centered-content' div so the port img and the about me boxes can move to the center on mobile
